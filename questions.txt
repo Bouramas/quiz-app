@@ -1,0 +1,93 @@
+Which of the following AWS services automates the creation, management, testing, and deployment of customized Amazon EC2 server images?
+EC2 Image Builder*
+AWS Launch Wizard
+AWS Compute Optimizer
+AWS Well-Architected Tool
+
+A company plans to migrate its multi-tier application to the AWS Cloud. The company wants to ensure that each tier (web, application, and database) can communicate with each other while also preventing unauthorized access through the use of security groups. Which particular task can be performed by using security groups in AWS?
+Apply a stateful firewall to an Amazon S3 bucket.
+Enhance the security of cached data managed by Amazon CloudFront.
+Prevent unauthorized access from malicious IP addresses at each tier's subnet.
+Enable exclusive access to Amazon EC2 instances inside an Amazon VPC via a specific port.*
+
+A startup plans to improve the security of its Amazon EC2 instances by applying security rules to subnets of the default VPC. Which is the MOST suitable AWS service or tool that should be used to meet this requirement?
+AWS Firewall Manager
+AWS Network Firewall
+Security Groups
+Network Access Control Lists*
+
+A company is migrating its on-premises workloads to a new architecture that is distributed between the AWS Cloud and its local data center. Which of the following migration types best describes this move?
+On-premises to Cloud Native
+Hybrid to On-premises
+On-premises to Hybrid*
+Hybrid to Cloud Native
+
+A manufacturing company plans to host a business-critical application on a single Amazon EC2 instance. What is the best way to increase the application’s resilience with the LEAST operational overhead?
+Launch multiple EC2 instances of the application in multiple Availability Zones.*
+Launch multiple EC2 instances of the application in multiple subnets.
+Launch multiple EC2 instances of the application using CloudFormation StackSets in different AWS accounts.
+Launch multiple EC2 instances of the application in multiple VPCs.
+
+
+A company plans to migrate its existing on-premises infrastructure to the AWS Cloud. Since their current business workflows heavily rely on legacy systems, they want to evaluate their AWS Cloud readiness first and prioritize any business transformation opportunities before commencing their migration activities. Which AWS service or tool can the company use to help them meet these requirements?
+AWS Prescriptive Guidance
+AWS Cloud Adoption Framework (AWS CAF)*
+AWS Support
+AWS Migration Hub
+
+A company recently audited the usage of its Amazon EC2 instances, which are used by its various applications. The company discovered a lot of these instances are under-utilized and over-provisioned. They then decide to rightsize their set of Amazon EC2 instances to optimize the performance of their computing resources. Which configuration change will meet this requirement with the LEAST operational overhead?
+Utilize the AWS Compute Optimizer and apply the recommended reconfigurations.*
+Reserve compute capacity for Amazon EC2 instances through On-Demand Capacity Reservations.
+Deploy an Auto Scaling Group behind an Elastic Load Balancer.
+Change the instance purchasing option of the Amazon EC2 Instances from On-Demand to EC2 Instance Savings Plans.
+
+Which AWS Well-Architected Framework pillar supports the design principle of performing operations as code?
+Security
+Performance Efficiency
+Operational Excellence*
+Cost Optimization
+
+Which of the following are the relevant stakeholders in the Platform perspective of the AWS Cloud Adoption Framework (AWS CAF)? (Select TWO.)
+Technology Leaders*
+Chief information officers (CIOs)
+Chief Financial Officers (CFOs)
+IT Architects*
+Chief information security officer (CISO)
+
+A company plans to migrate its operations to AWS and wants to justify the value of the cloud migration. The company seeks to define its measurable business outcomes by identifying and prioritizing transformation opportunities using the AWS Cloud Adoption Framework (AWS CAF). Which phase of the cloud transformation journey do these plans belong to?
+Scale
+Launch
+Align
+Envision*
+
+A startup plans to migrate its product’s infrastructure from on-premises to AWS. Doing this will turn their fixed infrastructure costs into variable costs. They intend to commit to utilizing AWS services in the long term for 1 or 3 years. Which AWS pricing model or offering will meet these requirements in the MOST cost-effective way?
+Savings Plans*
+Pay-as-you-go pricing
+AWS Billing Conductor
+AWS Free Tier
+
+Which of the following uses machine learning to continually track and detect unusual cloud expenditures in terms of cost and usage?
+AWS Trusted Advisor
+Amazon Lookout for Metrics
+AWS Cost Anomaly Detection*
+AWS Billing Conductor
+
+Which of the following are general design principles described in the AWS Well-Architected Framework? (Select TWO.)
+Drive architectures using data.*
+Manually provision sandbox environments for testing.
+Test systems at production scale.*
+Intelligently guess your capacity needs.
+Stick to one cloud architecture.
+
+A company plans to streamline its native iOS application development process and harness the AWS cloud’s capabilities for enhancing its build activities. Which of the following should the company use to achieve these requirements?
+AWS Amplify
+AWS App Runner
+Amazon EC2 M1 Mac instances*
+AWS Device Farm
+
+Which AWS service allows machine learning models to be trained using SQL commands and enables the integration of trained models within a data warehouse for forecasting purposes?
+Amazon SageMaker
+Amazon MemoryDB for Redis
+Amazon Redshift ML*
+Amazon Aurora PostgreSQL
+
