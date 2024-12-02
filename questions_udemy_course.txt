@@ -347,15 +347,197 @@ RDS Multi-AZ deployments’ main purpose is high availability, while RDS Read re
 True*
 False
 
+How do you get charged in AWS Lambda?
+Per programming language
+Per number of functions
+Per call and per duration*
+Per inactive time
 
+You would like to launch Docker containers in AWS without worrying about provisioning or managing any infrastructure. The Docker containers will be used to host a heavy workloads to serve different types of requests. Some requests may need up to 30 minutes to be completed. Which AWS service should you use to run Docker containers in a Serverless way and satisfy the requirements?
+ECS
+Fargate*
+ECR
+Lambda
 
+A complete cloud beginner would like to create a simple application with predictable pricing. What service should this person use?
+EC2
+Lambda
+Lightsail*
+EasyStart
 
+What is the name of the software development platform that allows you to run applications the same way, regardless of where they are run?
+Dolphin
+Shark
+Docker*
+ECS
 
+How would you best describe "event-driven" in AWS Lambda?
+Happens on a certain day
+Happens on a certain time
+Happens on a regular basis
+Happens when needed*
 
+Which AWS service allows you to launch Docker containers on AWS, but requires you to provision and maintain the infrastructure?
+ECR
+EC2
+ECS*
+Fargate
 
+Which of the following statements is INCORRECT regarding the definition of the term "serverless"?
+Serverless allows you to deploy functions as a service
+There are no servers*
+You don't need to manage servers
+Lambda is the serverless pioneer
 
+Which of the following statements is NOT a feature of AWS Lambda?
+Integration with the whole AWS suite of services
+Virtual functions
+Automated and continuous scaling
+Definition of a minimum and a maximum of EC2 instances running*
 
+A company needs to run thousands of jobs but would like to NOT manage the compute resources. What service can it use?
+ECS
+EC2 Spot Instances
+EC2 Instances
+Batch*
 
+Where should you store your private Docker images so they can be run by ECS or Fargate?
+Elastic Docker Registry
+Elastic Docker File Registry
+Elastic Container Registry*
+Elastic Private Container Registry
 
+Which AWS serverless service can be used by developers to create APIs?
+ECR
+Lambda
+API Gateway*
 
+Which AWS managed service allows to automate software deployments to a hybrid mix of EC2 Instances and On-Premises servers?
+CodeDeploy*
+CloudFormation
+Elastic Beanstalk
+CodePipeline
+
+You are a software developer working on a project with your team. You need a secure and reliable version control system to store, share, and collaborate your code with the team. Which AWS service can help the developers?
+CodeDeploy
+CodeCommit*
+CodePipeline
+Elastic Beanstalk
+
+You need a unified user interface that gives you visibility, control, and patching capabilities for your EC2 Instances on AWS, as well as for servers running in your on-premises data centers. Which service should you use?
+Storage Gateway
+Elastic Beanstalk
+Elastic Container Service
+Systems Manager*
+
+A developer would like to deploy infrastructure on AWS but only knows Python. Which AWS service can assist him?
+Software Development Kit (SDK)
+Cloud Development Kit (CDK)*
+Cloud Formation
+CodeBuild
+
+Which of the following allows you to deploy any AWS Infrastructure as a Code?
+Elastic Beanstalk
+CodeDeploy
+CloudFormation*
+Systems Manager
+
+Which service is referred to as a Platform as a Service (PaaS)?
+Elastic Beanstalk*
+CodeDeploy
+CloudFormation
+EC2
+
+What is called the declaration of the AWS resources that make up a stack?
+CloudFormation Schemas
+CloudFormation Diagrams
+CloudFormation Templates*
+CloudFormation Models
+
+Which of the following services can a developer use to store code dependencies?
+CodeBuild
+CodeCommit
+CodeDeploy
+CodeArtifact*
+
+Which serverless service can be used to build code and run tests?
+CodeDeploy
+Cloud Development Kit (CDK)
+CodePipeline
+CodeBuild*
+
+CloudFormation and Elastic Beanstalk are free of use.
+True*
+False
+
+Which Route 53 Routing Policies would you use to route traffic to multiple resources in proportions that you specify?
+Simple Routing Policy
+Weighted Routing Policy*
+Latency Routing Policy
+Failover Routing Policy
+
+Which service is optimized to deploy ultra-low latency applications to 5G devices?
+Wavelength*
+Route 53
+CloudFront
+
+You need to enable fast, easy, and secure transfers of files over long distances on S3. Which service would you use?
+AWS Global Accelerator
+S3 Transfer Acceleration*
+S3 Cross-Region Replication
+
+What does AWS CloudFront use to improve read performance?
+DDoS Protection
+S3 Buckets Fast-Read
+Caching Content in Edge-Locations*
+Caching Content in Edge Regions
+
+Which service can be used to run AWS infrastructure and services on-premises for a hybrid cloud architecture?
+CloudFront
+Outposts*
+DMS
+Storage Gateway
+
+Which of the following statements is NOT a reason for a global application?
+Decreased latency
+Disaster recovery
+Scale elastically on demand*
+Attack protection
+
+Which features are available with Route 53?
+Health Checks, Auto scaling, Routing Policy, DNS
+Load Balancing, DNS, Domain Registration, Monitoring
+Domain Registration, DNS, Health Checks, DDoS Protection
+Domain Registration, DNS, Health Checks, Routing Policy*
+
+With which services does CloudFront integrate to protect against web attacks?
+WAF & Shield*
+WAF & IAM
+IAM & Shield
+Security Groups & WAF
+
+A company using Apache ActiveMQ is migrating to the cloud. Which AWS service can it use to easily set up and operate its message brokers in the cloud?
+Amazon SQS
+Amazon SNS
+Amazon MQ*
+Amazon Kinesis
+
+Which service is a fully managed pub/sub messaging service that makes it easy to set up, operate, and send notifications from the cloud, using a push-based system?
+Simple Notification Service (SNS)*
+Simple Queue Service (SQS)
+Auto Scaling Groups (ASG)
+
+You can use Kinesis to perform real-time analysis from video streams.
+True*
+False
+
+Which principle is mainly applied when using Amazon SQS or Amazon SNS?
+Scalability
+Automation
+Decouple your applications*
+
+Which service allows you to send, store, and receive messages between software components at any volume, without losing messages or requiring other services to be available, using a pull-based system?
+Simple Notification Service (SNS)
+Simple Queue Service (SQS)*
+Auto Scaling Groups (ASG)
 
