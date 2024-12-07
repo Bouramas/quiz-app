@@ -6,6 +6,7 @@ import (
 	"os"
 	"strconv"
 	"strings"
+	"time"
 
 	"github.com/bouramas/quiz-app/internal/question"
 )
@@ -16,6 +17,7 @@ func RunQuiz(questions []question.Question) {
 	score := 0
 	totalQuestions := len(questions)
 	reader := bufio.NewReader(os.Stdin)
+	quizStart := time.Now()
 
 	for i, q := range questions {
 		fmt.Print(clearScreen)
@@ -54,11 +56,16 @@ func RunQuiz(questions []question.Question) {
 		if i < totalQuestions-1 {
 			fmt.Print("\nPress Enter to continue to the next question...")
 			reader.ReadString('\n')
+		} else {
+			fmt.Print("\nYou answered all questions!. Press Enter to see your results.")
+			reader.ReadString('\n')
 		}
 	}
 
+	endTime := time.Now()
+	timeSpent := endTime.Sub(quizStart)
 	fmt.Print(clearScreen)
-	fmt.Printf("\nQuiz completed!\nYou scored %d out of %d\n", score, totalQuestions)
+	fmt.Printf("\nQuiz completed!\nYou scored %d out of %d\nTotal time spent: %s\n", score, totalQuestions, timeSpent.Round(time.Second))
 }
 
 func contains(slice []string, item string) bool {
