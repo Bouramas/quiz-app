@@ -735,3 +735,121 @@ Spam from AWS-owned IP addresses or AWS resources
 Hosting objectionable or copyrighted content on AWS
 Losing your MFA device*
 
+Which of the following allows you to centrally manage all users and roles permissions in your AWS Organization?
+Technical Account Manager (TAM)
+Service Control Policies (SCPs)*
+AWS IAM
+AWS Config
+
+You would like to automatically set up and govern a secure multi-account AWS environment with best practices for your organization. Which AWS tool can you use?
+Control Tower*
+Organizations
+Trusted Advisor
+Security Hub
+
+A company would like recommendations regarding its performance, security, and fault tolerance. What can it use?
+Inspector
+Config
+Trusted Advisor*
+Technical Account Manager
+
+Which of the following is INCORRECT regarding AWS Organizations?
+Manage multiple AWS accounts
+Consolidated billing across all accounts
+Volume discounts from aggregated usage
+Faster access to the AWS Support*
+
+What is the most cost-effective option to have 24x7 phone, email, and chat support?
+Basic Support Plan
+Developer Support Plan
+Enterprise Support Plan
+Business Support Plan*
+
+What can you use to estimate the cost of your architecture solution?
+Simple Monthly Calculator/Pricing Calculator*
+Cost and Usage Reports
+Total Cost of Ownership (TCO)
+Trusted Advisor
+
+The Enterprise Support Plan comes with a business-critical system down response under 15 minutes and offers access to a Technical Account Manager, as well as a Concierge Support Team.
+True*
+False
+
+A company is not sure whether or not it is cost-effective to migrate to the AWS Cloud. Which service can help the executive board make a decision?
+Simple Monthly Calculator
+Pricing Calculator*
+Billing Dashboard
+Cost Explorer
+
+What do Resource Groups rely on to group your resources?
+Labels
+Categories
+Tags*
+Stickers
+
+What can you use to get alerts when your costs and usage are exceeding or are forecasted to exceed your budgeting amount?
+CloudWatch Billing Alarms
+Budgets*
+Cost and Usage Reports
+Billing Dashboard
+
+A company would like to choose the best Savings Plan and forecast its cost in the next 3 months. Which AWS service can help?
+Cost and Usage Reports
+Budgets
+Cost Explorer*
+Forecast
+
+Which of the following options uses machine learning to recommend optimal AWS resources and therefore reduces costs?
+Trusted Advisor
+Budgets
+Cost Explorer
+Compute Optimizer*
+
+Which services are free to use in AWS?
+IAM, VPC, Consolidated Billing and Elastic Beanstalk*
+Elastic Beanstalk, CloudFormation, Auto Scaling groups, and Lambda
+SNS, SQS, IAM, VPC
+All services have a free tier included
+
+CloudFront pricing is the same in every geographic region.
+True
+False*
+
+When you reserve, the larger the upfront payment, the smaller the discount.
+True
+False, the upfront payment does not matter on the discount
+False, the larger the upfront payment, the bigger the discount*
+
+Which of the following is NOT a pricing factor in S3?
+Storage class
+Data transfer into S3*
+Objects size
+Type of requests
+
+EBS Snapshots are added cost in GB per month.
+True*
+False
+
+Which of the following options can provide up to 66% discount compared to On-demand for a commitment to a consistent amount of usage for 1 or 3 years and offers the possibility to change EC2 instances family type?
+Spot Instances
+Reserved Instances
+Compute Savings Plan*
+EC2 Instance Savings Plan
+
+You are running an on-demand Linux EC2 instance, what timing is applied regarding billing?
+Pay per minute
+Pay per hour
+Pay per day
+Pay per second*
+
+Which pricing model allows you to minimize risks, predictably manage budgets, and comply with long-term requirements, and is available for EC2, DynamoDB, ElastiCache, RDS, and Redshift?
+Pay as you go
+Pay less as AWS grows
+Pay less by using more
+Save when you reserve*
+
+Which RDS pricing option is the most cost-effective if you need capacity for 3 years?
+On-demand
+Spot Instances
+Dedicated Instances
+Reserved Instances*
