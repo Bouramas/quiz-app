@@ -1,0 +1,198 @@
+Which AWS Cost Management tool allows the forecasting of future costs and usage of AWS resources based on past consumption?
+AWS Budgets
+Cost Explorer*
+AWS Cost and Usage report
+AWS Pricing Calculator
+
+When a company uses AWS and decouple from their on-premises data center, they will be able to have which of the following benefits? (Select TWO.)
+
+Deferred payments to their operational expenditures.
+Reduce time to market.*
+Massive discounts for bare metal servers from Amazon.com.
+Decrease your TCO.*
+Replace low variable costs with upfront capital expenses (CAPEX).
+
+There is an incident with your team where an S3 object was deleted using an account without the owner’s knowledge. What can be done to prevent unauthorized deletion of your S3 objects?
+Configure MFA delete on the S3 bucket.*
+Create access control policies so that only you can perform S3-related actions
+Set up stricter IAM policies that will prevent users from deleting S3 objects
+Set your S3 buckets to private so that objects are not publicly readable/writable
+
+Which of the following is a data transport solution that accelerates moving terabytes to petabytes of data into and out of AWS using appliances with on-board storage and compute capabilities?
+AWS Snowcone
+AWS Snowmobile
+AWS Snowball Edge*
+Lambda@Edge
+
+Which service does AWS use to notify you when AWS is experiencing events that may impact you?
+Amazon CloudWatch
+AWS Support Center
+AWS Health*
+Amazon SNS
+
+A company wants to launch a Microsoft SQL Server database in AWS. The database instance should only be managed by the company’s DBA and must be accessible via RDP. A standard license for SQL Server is required but the company is not yet sure how much CPU and memory to allocate to the database. Which option gives the most convenience and flexibility to determine the best database size while still being cost-effective?
+Use a Windows Server with SQL Server Standard bundled AMI so you won’t need to buy and manage your own license.*
+Launch an EC2 instance and install MS SQL Server. Purchase a Standard MSSQL license from Microsoft and apply it to the database you installed.
+Launch an RDS instance that runs MS SQL Server Standard. Purchase a Standard MSSQL license and store it in the AWS Managed Services (AMS).
+Launch an Amazon Aurora database that runs MS SQL Server. Buy a Standard MSSQL license from the AWS License Manager service.
+
+What is the best type of instance purchasing option to choose if you will run an EC2 instance for 3 months to perform a job that is uninterruptible?
+On-Demand Instance*
+Dedicated Instance
+Spot Instance
+Reserved Instance
+
+Which of the following policies grant the necessary permissions required to access your Amazon S3 resources? (Select TWO.)
+Routing policies
+Network access control policies
+Bucket policies*
+User policies*
+Object policies
+
+Which of the following is true regarding the Business support plan in AWS?
+Provides a 15-minute response time support if your production system goes down
+Provides a 15-minute response time support if your business-critical system goes down
+Provides a 1-hour response time support if your production system got impaired
+Provides a 1-hour response time support if your production system goes down*
+
+Which AWS service centralizes and automates the backup of data across AWS services and on-premises environments, including compute, storage, and database resources?
+AWS Elastic Disaster Recovery
+AWS Storage Gateway
+AWS Backup*
+AWS DataSync
+
+Which of the following is the benefit of using Amazon Relational Database Service (Amazon RDS) over traditional database management?
+Automatically scales up the instance type of your RDS cluster based on demand
+Lower administrative burden through automatic software patching and maintenance of the underlying operating system*
+It is five times faster than standard MySQL databases and three times faster than standard PostgreSQL databases
+Automatically apply both client-side and server-side encryption to your data by default
+
+A leading company wants to ensure that its cloud services are consistently delivered at the agreed-upon level of its business stakeholders. The company is considering using the AWS Cloud Adoption Framework (AWS CAF) to guide its cloud operations. Which capabilities within the AWS CAF’s Operations perspective would be most helpful for the company?
+Identity and Access Management
+Modern Application Development
+Performance and Capacity Management*
+Program and Project Management
+
+A space agency is using Amazon S3 to store their high-resolution satellite images and videos everyday. Which of the following should they do to minimize the upload time?
+Use the Multipart upload API*
+Upload the images and videos using the BatchWriteItem API
+Shift to S3 Intelligent-Tiering storage class
+Enable Cross-Origin Resource Sharing (CORS)
+
+A customer currently has a Basic support plan and they are planning to use the Infrastructure Event Management, Well-Architected Reviews and Operations Reviews features in AWS. What should they do in order to access these features in the most cost-effective manner?
+Upgrade to Business support plan.
+Upgrade to Enterprise support plan.*
+Upgrade to Developer support plan.
+None since these features are already included in their Basic support plan.
+
+You are permitted to conduct security assessments and penetration testing without prior approval against which AWS resources? (Select TWO.)
+Amazon Aurora*
+AWS Identity and Access Management (IAM)
+AWS Security Token Service (STS)
+Amazon RDS*
+Amazon S3
+
+Which of the following is used to enable instances in the public subnet to connect to the public Internet?
+NAT instance
+NAT Gateway
+Internet Gateway*
+API Gateway
+
+Which of the following should you use if you need to provide temporary AWS credentials for users who have been authenticated via their social media logins as well as for guest users who do not require any authentication?
+AWS IAM Identity Center
+Amazon Cognito User Pool
+Amazon Cognito Identity Pool*
+AWS AppSync
+
+A customer in North Virginia, USA, is doing some drone work and collecting environmental data. Which of the following services allows easy access to terabytes of data storage for use in a space-constrained environment and allows the transfer of these data to AWS?
+AWS Snowcone*
+AWS Storage Gateway
+AWS Snowmobile
+AWS Transit Gateway
+
+Which of the following should you use to automatically transfer your infrequently accessed data in your S3 bucket to a more cost-effective storage class?
+AWS Transfer Family
+Amazon S3 access control list
+Amazon S3 Lifecycle Policy*
+AWS Storage Gateway
+
+Which of the following is not required when launching an EBS-backed EC2 instance?
+EBS Root volume
+Security group
+Elastic IP address*
+VPC and subnet specification
+
+In the AWS Shared Responsibility Model, whose responsibility is it to patch the host operating system of an Amazon EC2 instance?
+Neither AWS nor the customer
+AWS*
+Both AWS and the customer
+Customer
+
+Which of the following are the characteristics of Amazon EC2 Convertible Reserved Instances? (Select TWO.)
+Provides the most significant discount of the RI types and are best suited for steady-state usage
+Allows you to change the attributes of the RI as long as the exchange results in the creation of Reserved Instances of equal or lesser value
+Has the capability to change the attributes of the RI as long as the exchange results in the creation of Reserved Instances of equal or greater value*
+Allows the change of instance family, operating system, tenancy, and payment option*
+Allows you to match your capacity reservation to a predictable recurring schedule that only requires a fraction of a day, a week, or a month
+
+A new AWS customer needs to deploy up to 100 t3a.large EC2 instances on their recently launched VPC, which is way beyond the default service limit. What should they do so they can launch their additional instances?
+Enable Enhanced Networking.
+Use AWS Trusted Advisor to increase the default service limits for EC2 instances.
+Do nothing. You can directly launch 100 t3a.large EC2 instances at the same time since AWS will automatically increase your service limit for you.
+Create a case in the AWS Support Center page and request a service limit increase.*
+
+What is the most secure way to provide applications temporary access to your AWS resources?
+Create an IAM group that has access to the resources, and add the application there
+Create an IAM user with access keys and assign it to the application
+Create an IAM policy that allows the application to access the resources, and attach the policy to the application
+Create an IAM role and have the application assume the role*
+
+Which of the following actions will AWS charge you for? (Select TWO.)
+Transfer of EC2 files between two AWS Regions*
+Network charges for the transfer of data from your data center to S3 through a VPN
+Using AWS CloudFormation to create resources
+Setting up additional VPCs in your account
+Provisioning elastic IPs and attaching them to running EC2 instances*
+
+A startup wants to move its on-premises infrastructure to AWS. The IT Security team wants to protect all of the applications against unintended and unauthorized access as well as potential vulnerabilities. Which of the following capability of AWS CAF’s Security perspective would be most relevant to address this concern?
+Infrastructure Protection*
+Data Protection
+Identity and Access Management
+Threat Detection
+
+Which of the following is a threat detection service that continuously monitors for malicious activity and unauthorized behavior to protect your AWS accounts and workloads?
+Amazon Macie
+AWS WAF
+Amazon GuardDuty*
+AWS Shield
+
+A manufacturing company has multiple AWS accounts for various departments. As the company grows, they are experiencing an increase in its AWS costs and want to optimize its expenses by taking advantage of any available discounts. Which of the following actions below will allow you to take advantage of volume discounts in AWS?
+Move all of your AWS resources from multiple accounts to a single global account.
+Opt for an All upfront Convertible Reserved Instance pricing for a 3-year term.
+Use AWS Organizations and enable the consolidated billing feature.*
+Upgrade to an AWS Enterprise support plan.
+
+Which of the following AWS service enables customers to analyze, investigate, and identify the root cause of potential security issues or suspicious activities in their AWS environment?
+Amazon Inspector
+Amazon Detective*
+Amazon GuardDuty
+AWS Security Hub
+
+A cloud architect wants Amazon S3 to monitor object access patterns. Which storage class should they use?
+Amazon S3 Standard-IA
+Amazon S3 Glacier Flexible Retrieval
+Amazon S3 One Zone-IA
+Amazon S3 Intelligent-Tiering*
+
+Which virtual private cloud (VPC) component controls inbound and outbound traffic for Amazon EC2 instances?
+Network access control list
+Internet gateway
+Subnet
+Security group*
+
+Which service consolidates and manages multiple AWS accounts from a central location?
+AWS Key Management Service (AWS KMS)
+AWS Identity and Access Management (IAM)
+AWS Artifact
+AWS Organizations*
+
